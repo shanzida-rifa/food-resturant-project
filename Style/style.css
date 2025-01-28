@@ -33,6 +33,7 @@
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.8;
+    margin-bottom: 10px;
 
 }
 
@@ -44,6 +45,7 @@
     line-height: 50px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 14px;
 }
 
 #hero .hero-content .description {
@@ -55,5 +57,39 @@
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
+    margin-bottom: 32px;
 
+}
+
+.btn {
+    padding: 14px 18px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+#card-box {
+    width: 884px;
+    margin: 50px auto;
+}
+
+#card-box .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
 }
