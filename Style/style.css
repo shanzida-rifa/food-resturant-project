@@ -73,6 +73,8 @@
     letter-spacing: 0%;
     text-align: center;
     border: none;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 .btn-container {
@@ -105,5 +107,42 @@
     letter-spacing: 0%;
     opacity: 0.6;
     text-align: center;
+}
 
+.card-container {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    font-family: "work sans";
+}
+
+.card {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card .image-box {
+    width: 250px;
+}
+
+.card .image-box img {
+    width: 100%;
+}
+
+.card .shop-name {
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: 600px;
+    font-size: 16px;
+    background: rgba(82, 195, 3, 0.15);
+
+}
+
+.container .btn {
+    display: flex;
+    t
 }
