@@ -81,8 +81,10 @@
 
 #card-box {
     width: 884px;
-    margin: 50px auto;
+    margin: 100px auto;
 }
+
+#card-box .info {}
 
 #card-box .title {
     color: rgb(16, 16, 16);
@@ -92,4 +94,16 @@
     line-height: 32px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+#card-box .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    opacity: 0.6;
+    text-align: center;
+
 }
